@@ -1,0 +1,83 @@
+body{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+.charSet{
+	border:1px solid #000000;
+	padding:5px 10px 5px 10px;
+	font-size:35px;
+	margin:10px 10px 10px 10px;
+	background-color:#ffffff;
+	display:inline-block;
+	box-shadow: 5px 5px 2px #888888;
+}
+div{
+	border:3px solid #000000;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+}
+#elementContainer{
+	background-color:#ffcccc;
+}
+
+#quizContainer{
+	background-color:#ccccff;
+	font-size:20px;
+}
+#currentQ{
+	background-color:#ffffff;
+	font-size:72px;
+	text-align:center;
+	width:75px;
+	margin-top:15px;
+	margin-bottom: 10px;
+}
+
+.charSet img {
+    display:none;
+    position: absolute;
+}
+.charSet:hover img {
+    display:block;
+}
+h2{font-family: 'Roboto', sans-serif;
+font-size:27px;
+margin:10px 10px 10px 10px;
+text-align:center;
+}
+
+form{
+	margin: 0 auto; 
+	width:500px;
+	text-align:center;
+}
+.answer{
+	font-size:23px;
+}
+
+button {  /*http://css3buttongenerator.com/ */
+  border-radius: 9px;
+  font-family: Arial, serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #eb9090;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  margin-top:10px;
+}
+
+button:hover {
+	background: #fc3c3c;
+	text-decoration: none;
+
+}
+
+#credits{
+	bottom:0;
+	width:100%;
+	margin-top:10px;
+	padding:10px;
+}

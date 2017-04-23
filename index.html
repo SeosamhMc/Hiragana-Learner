@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Hiragana  Learner</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <script src="myFunctions.js"></script>
+    <script src="jquery-3.2.0.min.js"></script>
+</head>
+<body onload="loadPage()">
+    <span id="welcomeMessage" style="display: none"></span>
+    <hr/>
+    <h2 id="instructionText"> Hover over a character to see it's Stroke order. Click a character to hear it's female and male pronounciation.<br/> Click on the stroke order to select/deselect that character for assessment.</h2>
+    <div id="elementContainer"></div>
+    <div id="quizContainer" style="display:none">
+        <div id="currentQ"></div>
+        <form id="myForm">
+            Please select an answer from the following:
+            <br>
+        </form>
+    </div>
+    <button onclick="startQuiz();" id="quizStartStopButton" type="button">Start Quiz</button>
+
+    <div id="credits">
+        <hr/>
+        <strong>Credits for Resources</strong>
+        <p>
+            <a href="https://commons.wikimedia.org/wiki/Category:Hiragana_stroke_order">Wikipedia</a> for providing the stroke images.<br>
+            <a href="http://www.guidetojapanese.org/learn/complete/hiragana">Guide to Japanese</a> for providing audio pronunciations of the Hiragana.<br/>
+            <a href="https://r12a.github.io/apps/conversion/">R12a's Character to Unicode converter</a> for providing a way to easily convert a large array of Hiragana characters to an array of their Unicode Block equivalent.<br/>
+        </p>
+    </div>
+</body>
+</html>
