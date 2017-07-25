@@ -4,9 +4,9 @@ var chars=["\u3042","\u3044","\u3046","\u3048","\u304A","\u304B","\u304D","\u304
 //Unicode for the Hiragana  Characters
 //Converted to Unicode using https://r12a.github.io/apps/conversion/
 
-
 var englishEquiv=["a","i","u","e","o","ka","ki","ku","ke","ko","sa","si","su","se","so","ta","ti","tu","te","to","na","ni","nu","ne","no","ha","hi","hu","he","ho","ma","mi","mu","me","mo","ya","yu","yo","ra","ri","ru","re","ro","wa","wo","n"];
 //Romaji code for each character
+
 var isSelected=[];
 //True if a character has been selected, otherwise false
 var numSelected=0;
@@ -23,6 +23,8 @@ var score=undefined;
 var isUserSuccessful=undefined;
 var isPasswordSuccessful=undefined;
 var isSessionSaved=undefined;
+
+
 function loadPage(){ //Creates all elements on the page and gives them their attributes
 	var elementContainer=document.getElementById("elementContainer"); //Element View- Shows all characters and allows user to select characters
 	var quizContainer=document.getElementById("quizContainer");
